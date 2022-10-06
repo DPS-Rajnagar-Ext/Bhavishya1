@@ -59,6 +59,9 @@ nav img{
 .text-box h1{
     font-size: 62px;
 }
+.text-box h2{
+    color: yellow;
+}
 .text-box p{
     margin: 10px 0 40px;
     font-size: 15px;
@@ -87,7 +90,10 @@ nav .fa{
 
 @media(max-width: 700px){
     .text-box h1{
-    font-size: 20px;
+    font-size: 30px;
+    }
+    .text-box h2{
+        font-size: 15px;
     }
     .nav-links ul li{
         display: block;
@@ -119,7 +125,7 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 h1{
     font-size: 36px;
@@ -157,7 +163,7 @@ h3{
 }
 
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
 }
 
 @media(max-width: 700px){
@@ -221,7 +227,6 @@ h3{
 .about-us{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
     padding-bottom: 50px;
 }
 .about-col{
