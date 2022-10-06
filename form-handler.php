@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $query = $_POST['query'];
 
-$email_from = 'dpsrnext@gmail.com';
+$email_from = 'contact@bhavishya1.vercel.app';
 
 $email_subject = 'New Form Submission';
 
